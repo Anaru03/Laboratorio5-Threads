@@ -41,7 +41,7 @@ int main() {
     int ids[NUM_THREADS];
     srand(time(NULL));
 
-    bitacora = fopen("bitacora_semaforo.txt", "w");
+    bitacora = fopen("bitacoraS.txt", "w");
     if (!bitacora) {
         perror("No se pudo abrir la bitácora");
         exit(EXIT_FAILURE);

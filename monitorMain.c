@@ -53,7 +53,7 @@ int main() {
     int ids[NUM_THREADS];
     srand(time(NULL));
 
-    bitacora = fopen("bitacora_monitor.txt", "w");
+    bitacora = fopen("bitacoraM.txt", "w");
     if (!bitacora) {
         perror("No se pudo abrir la bitácora");
         exit(EXIT_FAILURE);
